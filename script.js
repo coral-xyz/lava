@@ -83,7 +83,7 @@ function initialize(){
             { centerOffsetX:-300 * scale, centerOffsetY:20 * scale, radius: 160 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
             { centerOffsetX:-570 * scale, centerOffsetY:-20 * scale, radius: 50 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
         ],
-        texture:generateGradientTexture([{color:'#e24926', stop:0.2}, {color:'#c8246c', stop:.35}, {color:'#40204c', stop:.55}, {color:'#e24926', stop:.75}, {color:'#40204c', stop:1.0}], false, false)
+        texture:generateGradientTexture([{color:'#45E4BE', stop:0.2}, {color:'#63C0D2', stop:.35}, {color:'#A077FC', stop:.55}, {color:'#D97995', stop:.75}, {color:'#F57D5E', stop:1.0}], false, false)
     };
     var metaballsGroup2 = {
         metaballs:[
@@ -99,7 +99,7 @@ function initialize(){
 
             { centerOffsetX:-1070 * scale, centerOffsetY:-500 * scale, radius: 20 * scale, speed: getRandomFloat(0.07, 0.014), t:0.0, arcMultiplierX:getRandomFloat(30.0, 30.0), arcMultiplierY:getRandomFloat(10.0, 10.0) },
         ],
-        texture:generateGradientTexture([{color:'#e24926', stop:0.0}, {color:'#e24926', stop:0.3}, {color:'#c8246c', stop:.4}, {color:'#40204c', stop:.7}], true, false)
+        texture:generateGradientTexture([{color:'#45E4BE', stop:0.0}, {color:'#63C0D2', stop:0.3}, {color:'#A077FC', stop:.4}, {color:'#D97995', stop:.7}], true, false)
     };
     var metaballsGroup3 = {
         metaballs:[
@@ -108,7 +108,7 @@ function initialize(){
             { centerOffsetX:200 * scale, centerOffsetY:-190 * scale, radius: 40 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
             { centerOffsetX:250 * scale, centerOffsetY:-280 * scale, radius: 16 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
         ],
-        texture:generateGradientTexture([{color:'#e24926', stop:0.56}, {color:'#c8246c', stop:.63}, {color:'#40204c', stop:.7}], false, false)
+        texture:generateGradientTexture([{color:'#819CE7', stop:0.56}, {color:'#A077FC', stop:.63}, {color:'#BD76CD', stop:.7}], false, false)
     };
     var metaballsGroup4 = {
         metaballs:[
@@ -118,7 +118,7 @@ function initialize(){
             { centerOffsetX:-470 * scale, centerOffsetY:320 * scale, radius: 40 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
             { centerOffsetX:-430 * scale, centerOffsetY:360 * scale, radius: 30 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
         ],
-        texture:generateGradientTexture([{color:'#e24926', stop:0.1}, {color:'#c8246c', stop:.20}, {color:'#40204c', stop:.4}], false, false)
+        texture:generateGradientTexture([{color:'#45E4BE', stop:0.1}, {color:'#63C0D2', stop:.20}, {color:'#819CE7', stop:.4}], false, false)
     };
     var metaballsGroup5 = {
         metaballs:[
@@ -126,38 +126,10 @@ function initialize(){
             { centerOffsetX:30 * scale, centerOffsetY:-120 * scale, radius: 60 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
             { centerOffsetX:480 * scale, centerOffsetY:170 * scale, radius: 21 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
         ],
-        texture:generateGradientTexture([{color:'#e24926', stop:0.25}, {color:'#c8246c', stop:.60}, {color:'#40204c', stop:0.78}], true, false)
-    };
-    var metaballsGroup6 = {
-        metaballs:[
-            { centerOffsetX:820 * scale, centerOffsetY:20 * scale, radius: 200 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:480 * scale, centerOffsetY:30 * scale, radius: 70 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:500 * scale, centerOffsetY:-10 * scale, radius: 65 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:1080 * scale, centerOffsetY:30 * scale, radius: 35 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:400 * scale, centerOffsetY:160 * scale, radius: 55 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:350 * scale, centerOffsetY:-120 * scale, radius: 75 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-
-            { centerOffsetX:1670 * scale, centerOffsetY:500 * scale, radius: 15 * scale, speed: getRandomFloat(0.21, 0.22), t:13.0, arcMultiplierX:30.0, arcMultiplierY:6.0 },
-        ],
-        texture:generateGradientTexture([{color:'#e24926', stop:0.0}, {color:'#e24926', stop:0.7}, {color:'#c8246c', stop:.8}, {color:'#40204c', stop:1.0}], false, false)
-    };
-    var metaballsGroup7 = {
-        metaballs:[
-            { centerOffsetX:-930 * scale, centerOffsetY:40 * scale, radius: 30 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:-800 * scale, centerOffsetY:90 * scale, radius: 60 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:-640 * scale, centerOffsetY:270 * scale, radius: 50 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:-590 * scale, centerOffsetY:150 * scale, radius: 90 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:-400 * scale, centerOffsetY:240 * scale, radius: 40 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:-300 * scale, centerOffsetY:120 * scale, radius: 35 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:-450 * scale, centerOffsetY:50 * scale, radius: 70 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:-590 * scale, centerOffsetY:-40 * scale, radius: 60 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-            { centerOffsetX:-370 * scale, centerOffsetY:-70 * scale, radius: 50 * scale, speed: getRandomFloat(minSpeed, maxSpeed), t:Math.random() * 200, arcMultiplierX:getRandomFloat(minMultiplierArcX, maxMultiplierArcX), arcMultiplierY:getRandomFloat(minMultiplierArcY, maxMultiplierArcY) },
-        ],
-        texture:generateGradientTexture([{color:'#e24926', stop:0.2}, {color:'#c8246c', stop:.4}, {color:'#40204c', stop:.7}], true, false)
+        texture:generateGradientTexture([{color:'#819CE7', stop:0.25}, {color:'#A077FC', stop:.60}, {color:'#BD76CD', stop:0.78}], true, false)
     };
 
-    createdMetaballs.push(new Metaballs(gl, metaballsGroup6));
-    createdMetaballs.push(new Metaballs(gl, metaballsGroup7));
+
     createdMetaballs.push(new Metaballs(gl, metaballsGroup2));
     createdMetaballs.push(new Metaballs(gl, metaballsGroup1));
     createdMetaballs.push(new Metaballs(gl, metaballsGroup3));
