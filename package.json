@@ -1,0 +1,23 @@
+{
+  "name": "lava",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coral-xyz/lava.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coral-xyz/lava/issues"
+  },
+  "homepage": "https://github.com/coral-xyz/lava#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
